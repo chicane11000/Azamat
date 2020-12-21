@@ -1,0 +1,29 @@
+class Character(Warrior) 
+	def move(self): 
+		able("strength, dexterity, constitution, intelligence, wisdom, charisma") 
+		print("2d8 + = 1 - 16") 
+
+		able("strength" = 18, "dexterity" = 12, "intelligence" = 8, "constitution" = 14, "wisdom" = 10, "charisma" = 8) 
+
+class Character(Dragon) 
+	def move(self): 
+		able("strength, dexterity, constitution, intelligence, wisdom, charisma") 
+		print("2d8 + = 1 - 16") 
+		able("strength" = 20, "dexterity" = 10, "intelligence" = 8, "constitution" = 16, "wisdom" = 20, "charisma" = 8)" 
+
+class Characters(Warrior & Dragon) 
+	def move(selfs): 
+		print("Attack = 2d6 +")
+
+from abc import ABC, abstractmethod
+
+class Character(ABC): 
+	def name(self): 8 
+		level(self): 8 
+		print("max_hp, hp, armor_class, initiative") 
+		able("max_hp = 10 + модификатор телосложения + 1d10 * уровень") 
+class Characters(Warrior )
+	@abstractmethod
+	def move(self):
+		pass
+
